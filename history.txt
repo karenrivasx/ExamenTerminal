@@ -1,0 +1,36 @@
+    1  mkdir examen372
+    2  cd examen372
+    3  touch create.sh
+    4  echo '#! /bin/bash' >> create.sh
+    5  rm -rf webapp
+    6  mkdir webapp
+    7  ./create.sh
+    8  ./create.sh
+    9  ./create.sh
+   10  ./create.sh
+   11  ./create.sh
+   12  ./create.sh
+   13  ./create.sh
+   14  ./create.sh
+   15  ./create.sh
+   16  ./create.sh
+   17  ./create.sh
+   18  ./create.sh
+   19  ./create.sh
+   20  ./create.sh
+   21  ./create.sh
+   22  ./create.sh
+   23  ./create.sh
+   24  ./create.sh
+   25  ./create.sh
+   26  ./create.sh
+   27  ./create.sh
+   28  cmd //c tree //F ./
+   29  ./create.sh
+   30  cmd //c tree //F ./
+   31  mv examen372.md README.md
+   32  cd desktop
+   33  cd ..
+   34  mv examen372.md README.md
+   35  mv README.md ./examen372/
+   36  history > history.txt
